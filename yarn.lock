@@ -3252,16 +3252,16 @@ expo-asset@~8.10.1:
   integrity sha512-5VMTESxgY9GBsspO/esY25SKEa7RyascVkLe/OcL1WgblNFm7xCCEEUIW8VWS1nHJQGYxpMZPr3bEfjMpdWdyA==
   dependencies:
     blueimp-md5 "^2.10.0"
-    expo-constants "~14.4.2"
+    expo-helpers "~14.4.2"
     expo-file-system "~15.4.0"
     invariant "^2.2.4"
     md5-file "^3.2.3"
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
-expo-constants@~14.4.2:
+expo-helpers@~14.4.2:
   version "14.4.2"
-  resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-14.4.2.tgz#cac5e8b524069545739b8d8595ce96cc5be6578c"
+  resolved "https://registry.yarnpkg.com/expo-helpers/-/expo-helpers-14.4.2.tgz#cac5e8b524069545739b8d8595ce96cc5be6578c"
   integrity sha512-nOB122DOAjk+KrJT69lFQAoYVQGQjFHSigCPVBzVdko9S1xGsfiOH9+X5dygTsZTIlVLpQJDdmZ7ONiv3i+26w==
   dependencies:
     "@expo/config" "~8.1.0"
@@ -3299,7 +3299,7 @@ expo-linking@~5.0.2:
   integrity sha512-SPQus0+tYGx9c69Uw4wmdo3rkKX8vRT1vyJz/mvkpSlZN986s0NmP/V0M5vDv5Zv2qZzVdqJyuITFe0Pg5aI+A==
   dependencies:
     "@types/qs" "^6.9.7"
-    expo-constants "~14.4.2"
+    expo-helpers "~14.4.2"
     invariant "^2.2.4"
     qs "^6.11.0"
     url-parse "^1.5.9"
@@ -3367,7 +3367,7 @@ expo@^49.0.3:
     babel-preset-expo "~9.5.1"
     expo-application "~5.3.0"
     expo-asset "~8.10.1"
-    expo-constants "~14.4.2"
+    expo-helpers "~14.4.2"
     expo-file-system "~15.4.3"
     expo-font "~11.4.0"
     expo-keep-awake "~12.3.0"
